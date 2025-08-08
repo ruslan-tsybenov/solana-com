@@ -35,6 +35,7 @@ import trustWalletCoreIcon from "../../../assets/wallets/icons/trustwalletcore.p
 import turnkeyIcon from "../../../assets/wallets/icons/turnkey.png";
 import walletConnectIcon from "../../../assets/wallets/icons/walletconnect.png";
 import web3authIcon from "../../../assets/wallets/icons/web3auth.png";
+import atomicwalletIcon from "../../../assets/wallets/icons/atomicwallet.png";
 
 export const walletData = [
   {
@@ -922,6 +923,30 @@ export const walletData = [
     open_source: true,
     hardware: true,
     private_key_infrastructure: false,
+   },
+  {
+    name: "Atomic Wallet",
+    body: "Atomic Wallet is a non-custodial wallet that enables secure management of crypto and seamless access to dApp across the Web3 ecosystem.",
+    website: "https://atomicwallet.io/",
+    additionalInfo:
+      "Non-Custodial/Self Custodial • Buy Crypto • Sell Crypto • Exchange Crypto • Open Source • Staking • Hold NFTs",
+    icon: atomicwalletIcon,
+    custodial: false,
+    non_custodial: true,
+    te: false,
+    blinks_and_actions: false,
+    solana_pay: false,
+    buy_crypto: true,
+    sell_crypto: true,
+    hold_nfts: true,
+    mpc: false,
+    gas_abstraction: false,
+    social_recovery: false,
+    staking: true,
+    spending_limits: false,
+    open_source: true,
+    hardware: false,
+    private_key_infrastructure: false,
   },
 
   // {
@@ -947,4 +972,3 @@ export const walletData = [
   //   hardware: false,
   //   private_key_infrastructure: false
   // }
-];
